@@ -35,6 +35,7 @@ compile:
 	@echo ---------- build for $(BUILDOS) ----------
 	@echo -----------------------------------
 	@echo ------------ clearing -------------
+	mkdir $(BUILD_FOLDER)
 	rm -f $(BUILD_FOLDER)/*.o
 	rm -f $(BUILD_FOLDER)/*.bin
 	@echo -----------------------------------
